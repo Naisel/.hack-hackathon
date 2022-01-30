@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="./Hackathon .hack/team3/css/style_team.css" />
     <link rel="stylesheet" type="text/css" href="./Hackathon .hack/team3/css/style_joinus.css"/>
@@ -13,9 +14,9 @@
 </head>
 <body>
 
-    <header class="v-header box">
+    <header  class="v-header box">
 
-        <div class="fullscreen-video-wrap">
+        <div id="home" class="fullscreen-video-wrap">
             <video src="/assests/Video/video.mp4" autoplay loop muted></video>
         </div>
         <div class="header-overlay"></div>
@@ -23,17 +24,17 @@
         <div class="header-content">
             <div class="text-white-600 body-font">
                 <div class="title">
-                    <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+                    <a  href="#home" class="HeaderTitle flex title-font  items-center text-white-900 mb-4 md:mb-0">
                         <span class="ml-3 text-xl">WE CARE </span>
                     </a>
                 </div>
                 <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <nav class="nav-items md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="#" class="mr-5 hover:text-gray-900">Home</a>
-                    <a href="#" class="mr-5 hover:text-gray-900">Talk to Us!</a>
-                    <a href="#" class="mr-5 hover:text-gray-900">General Info</a>
-                    <a href="#" class="mr-5 hover:text-gray-900">About Us</a>
-                    <a href="#" class="mr-5 hover:text-gray-900">Join Us</a>
+                    <a href="#home" class="mr-5 hover:text-gray-900">Home</a>
+                    <a href="#secPage" class="mr-5 hover:text-gray-900">Talk to Us!</a>
+                    <a href="#bubbles" class="mr-5 hover:text-gray-900">General Info</a>
+                    <a href="#about" class="mr-5 hover:text-gray-900">About Us</a>
+                    <a href="#join-us" class="mr-5 hover:text-gray-900">Join Us</a>
 
                     <button class="btn">Log In</button>
                   </nav>
@@ -41,33 +42,212 @@
               </div>
 
               <div class="tagline">
-                  <h1>THIS IS GOING TO BE THE <span>TAGLINE</span></h1>
+                  <h1>BECAUSE ALL PROBLEMS HAVE <span>SOLUTIONS</span></h1>
               </div>
 
               <div class="info">
                   <div class="info1 informationBox">
-                      <div class="info1 heading">Lorem ipsum dolor sit amet.</div>
-                      <div class="info1 infodesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi itaque placeat hic doloremque porro asperiores voluptates corporis nemo ullam eveniet.</div>
+                      <div class="info1 heading">Let us Find.</div>
+                      <div class="info1 infodesc">We can help you find a solution to the problems that you face by figuring out possible disorder based on the symptoms u are facing!.</div>
                   </div>
                   <div class="info2 informationBox">
-                    <div class="info2 heading">Lorem ipsum dolor sit amet.</div>
-                    <div class="info2 infodesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui corporis modi odio! Earum consectetur at accusantium labore corrupti similique?</div>
+                    <div class="info2 heading">Let us Connect.</div>
+                    <div class="info2 infodesc">We can provide Mental Health support by connecting you with Mental Health Experts that are willing to help for free!</div>
                 </div>
               </div>
         </div>
 
     </header>
-
-    <div class="talk" id="talk">
+    
+  
+    
+     <div id="secPage" style="margin-top: 50px; margin-bottom: 300px;">
+        <div class="secpage">
+            <img src="assests/Images/sec_page_img.jpg" alt="we_find_img">
+            <div class="secpage-content">
+                <h1>WE WILL FIND</h1>
+                <p>What was disturbing your mind so bad that you had to come to us?<br>
+                    Still cant figure out what all that struggle of your's was?<br>
+                    Find out on the next page by taking our short quiz!</p>
+            </div>
+            <a href="form.html" target="_blank">Find the problem!</a>
+        </div>       
     </div>
 
-
     
-    <div class="bubbles-section">
-       
-        <div class="bubble"></div>
+
+    <div id="bubbles" class="health-issues">
+
+        <div class="issues-title">
+            Educate Yourself
+        </div>
+
+
+        <div class="bubbles-section">
+            
+            <a href="issues/anxiety.html">
+                <div class="bubble">
+                        <div class="bubble-content" id="buble-name">
+                            <h1>Anxiety</h1>
+                        </div>
+                    <!-- <div class="bubble-popup" id="bubble-popup">
+                        <div class="popup">
+                            <div class="popup-header">
+                                <div class="popup-title">ANXIETY</div>
+                                <button class="popup-button"><i class="far fa-window-close"></i></button>
+                            </div>
+                            <img class="" src="" alt="">
+                            <div class="popup-body ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque sed labore error quae nostrum est natus id accusamus quidem!</p>
+                            </div>
+                            <div class="popup-resources btn">
+                                <button><a href="#">CHECKOUT THE RESOURCES!</a></button>
+                            </div>
+                        </div>
+                        <div class="popup-overlay"></div>
+                    </div> -->
+                </div>
+            </a>
+            
+            <a href="issues/depression.html">
+                <div class="bubble">
+                        <div class="bubble-content">
+                            <h1>Depression</h1>
+                        </div>
+                </div>
+            </a>
+    
+            <a href="issues/addictions.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Addictions</h1>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="issues/personality_disorders.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Personality Disorder</h1>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="issues/Schizophrenia.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Schizophrenia</h1>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="issues/Bipolar_Disorder.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Bipolar Disorder</h1>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="issues/PTSD.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Post-Traumatic Stress Disorder (PTSD)</h1>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="issues/Sexual_Disorders.html">
+                <div class="bubble">
+                    <div class="bubble-content">
+                        <h1>Sexual Disorders</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
     
+    
+   <!--TEAM -->
+    
+    
+    <div id="about" class="team-heading">Our Team</div>
+
+    <section id="team">
+      <div class="team" style="--img: url(./1.jpg)">
+        <img src="./1.jpg" alt="image1" />
+        <div class="info">
+          <div class="name">Shinoj Muraleedharan</div>
+        </div>
+      </div>
+
+      <div class="team" style="--img: url(./2.jpg)">
+        <img src="./2.jpg" alt="image2" />
+        <div class="info">
+          <div class="name">Shreyas Santhosh</div>
+        </div>
+      </div>
+
+      <div class="team" style="--img: url(./3.jpg)">
+        <img src="./3.png" alt="image3" />
+        <div class="info">
+          <div class="name">Naisel PK</div>
+        </div>
+      </div>
+
+      <div class="team" style="--img: url(./4.jpg)">
+        <img src="./4.jpeg" alt="image4" />
+        <div class="info">
+          <div class="name">Tom Mathew</div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!--JOIN US -->
+    
+    
+    <section id="join-us">
+      <div class="join-form">
+        <h1>Join Us in Our Journey</h1>
+        <p>
+          If you would like to provide help to those who need it, Please join us
+          by filling the form below :
+        </p>
+        <div class="the-form">
+          <form>
+
+            <div class="organisation">
+                <input type="radio"  id="organisation" onclick="javascript:yesnoCheck();" name="checkbox">
+                <label for="organisation">Organisation</label>
+            </div> 
+
+            <div class="individual">
+                <input type="radio" id="individual" onclick="javascript:yesnoCheck();" name="checkbox">
+                <label for="individual">Individual</label><br>
+            </div> 
+
+            <div id="ifYes" style="visibility:hidden">
+                <input type='text' id='organisation' placeholder="Your Organisation" name='yes'><br>
+            </div>
+
+            <input type='text' id='individual' placeholder="Your Name" name='yes'><br>
+            <input type="text" id="email" name="email" placeholder="  Email" ><br/>
+
+            <input type="text" id="phone" name="phone" placeholder="  Phone number"><br/>
+
+            <textarea id="msg" name="message" placeholder=" Message"></textarea><br>
+
+            <div class="button">
+                <input type="submit" id="submit" name="submit" ><br />
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+
 <script src="script.js"></script>
 
 <div class="header">Our Team</div>
